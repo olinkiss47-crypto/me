@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Полина Костромина — сайт-визитка</title>
+  <meta name="description" content="Сайт-визитка Полины Костроминой — студентки, начинающего frontend-разработчика и активного участника университетской жизни." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <header class="mobile-topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="Открыть меню">☰</button>
+    <span>Полина Костромина</span>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+        <div class="photo-card">
+          <div class="avatar">
+            <img src="photo_2026-03-29_01-01-14.jpg" alt="Фото" class="avatar">
+          </div>
+        </div>
+
+        <div class="name-block">
+          <h1>Костромина<br />Полина</h1>
+          <p class="role">Junior Frontend Developer</p>
+        </div>
+
+        <nav class="nav">
+          <a href="#profile">Профиль</a>
+          <a href="#education">Образование</a>
+          <a href="#about">О себе</a>
+          <a href="#university">Университет</a>
+          <a href="#skills">Навыки</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <section class="sidebar-section small-info">
+          <h3>Контакты</h3>
+          <ul>
+            <li><span>Email:</span> qipment@gmail.com</li>
+            <li><span>Телефон:</span> +375 (33) 317-61-12</li>
+            <li><span>Город:</span> Минск, Беларусь</li>
+          </ul>
+        </section>
+
+        <section class="sidebar-section">
+          <h3>Навыки</h3>
+          <div class="skill-item">
+            <span>HTML5</span>
+            <div class="dots"><i class="active"></i><i class="active"></i><i class="active"></i><i></i><i></i></div>
+          </div>
+          <div class="skill-item">
+            <span>CSS3</span>
+            <div class="dots"><i class="active"></i><i class="active"></i><i class="active"></i><i></i><i></i></div>
+          </div>
+          <div class="skill-item">
+            <span>JavaScript</span>
+            <div class="dots"><i class="active"></i><i class="active"></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="skill-item">
+            <span>SQL</span>
+            <div class="dots"><i class="active"></i><i class="active"></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="skill-item">
+            <span>Адаптивная вёрстка</span>
+            <div class="dots"><i class="active"></i><i class="active"></i><i class="active"></i><i></i><i></i></div>
+          </div>
+        </section>
+
+        <section class="sidebar-section">
+          <h3>Языки</h3>
+          <div class="skill-item">
+            <span>Русский</span>
+            <div class="dots"><i class="active"></i><i class="active"></i><i class="active"></i><i class="active"></i><i></i></div>
+          </div>
+          <div class="skill-item">
+            <span>Английский</span>
+            <div class="dots"><i class="active"></i><i class="active"></i><i></i><i></i><i></i></div>
+          </div>
+        </section>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section class="hero card">
+        <div>
+          <h2>Студентка, исследователь и начинающий frontend-разработчик</h2>
+          <p class="hero-text">
+            Развиваюсь в веб-разработке, активно участвую в научной и общественной жизни университета,
+            совмещая хорошую учёбу, проекты и студенческое лидерство.
+          </p>
+        </div>
+        <a href="#contacts" class="hero-btn">Связаться</a>
+      </section>
+
+      <section class="grid-two">
+        <article class="info-card" id="profile">
+          <h3>Профиль</h3>
+          <p>
+            Я целеустремлённая студентка с глубокими знаниями в экономике и основами программирования.
+            Стремлюсь развиваться в сфере фронтенд-разработки и создавать удобные, современные и функциональные веб-сайты.
+          </p>
+        </article>
+
+        <article class="info-card" id="education">
+          <h3>Образование</h3>
+          <p>
+            С 2023 года обучаюсь в <strong>БГУИР</strong> по специальности <strong>электронная экономика</strong>
+            на инженерно-экономическом факультете. В процессе обучения получаю экономические и технические знания,
+            включая основы программирования, анализа данных и цифровых технологий.
+          </p>
+        </article>
+      </section>
+
+      <section class="info-card wide" id="about">
+        <h3>О себе</h3>
+        <p>
+          С 2023 по 2025 год проходила курсы по <strong>HTML5, CSS3, JavaScript и UX/UI-дизайну</strong>.
+          За это время развила навыки адаптивной вёрстки, работы с Git, изучила основы ООП,
+          язык программирования C, базовые знания Java и Python, а также начала уверенно работать с базами данных.
+        </p>
+        <p>
+          Уже есть опыт разработки сайта на заказ, который помог мне закрепить навыки структурирования кода,
+          адаптивной вёрстки и работы с реальными задачами. На данный момент я занимаюсь
+          <strong>углублённым изучением SQL</strong>, после чего планирую перейти к
+          <strong>backend-разработке</strong>, чтобы стать более универсальным специалистом.
+        </p>
+        <div class="tags">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Git</span>
+          <span>SQL</span>
+          <span>UX/UI</span>
+        </div>
+      </section>
+
+      <section class="info-card wide university" id="university">
+        <div class="section-head">
+          <h3>Университетская деятельность</h3>
+          <span class="pill">активный студент</span>
+        </div>
+
+        <div class="uni-grid">
+          <div class="uni-box soft-yellow">
+            <h4>Научная деятельность</h4>
+            <p>
+              Активно пишу научные работы по различным дисциплинам: белорусский язык, философия,
+              статистические методы анализа данных, экономическая социология и другим направлениям.
+            </p>
+            <ul>
+              <li>публикации в научных сборниках;</li>
+              <li>участие в исследовательской деятельности;</li>
+              <li>грамоты и дипломы за научные работы.</li>
+            </ul>
+          </div>
+
+          <div class="uni-box soft-pink">
+            <h4>Общественная деятельность</h4>
+            <p>
+              Принимаю активное участие в социальной жизни университета,
+              участвую в мероприятиях от <strong>БРСМ</strong> и <strong>профкома</strong>,
+              а также поддерживаю студенческие инициативы и университетские проекты.
+            </p>
+          </div>
+
+          <div class="uni-box soft-green">
+            <h4>Студенческое лидерство</h4>
+            <p>
+              В общежитии являюсь <strong>председателем студенческого совета</strong>.
+              Занимаюсь организацией мероприятий, взаимодействием со студентами
+              и помогаю развивать комфортную и активную студенческую среду.
+            </p>
+          </div>
+
+          <div class="uni-box soft-blue">
+            <h4>Учёба и развитие</h4>
+            <p>
+              Для меня важно не только участвовать в жизни университета,
+              но и показывать хорошие результаты в учёбе. Я стараюсь быть разносторонним студентом,
+              который успешно совмещает знания, инициативу и практику.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-two stats-row" id="skills">
+        <article class="stat-card pastel-yellow">
+          <span class="stat-number">6+</span>
+          <p>изучаемых направлений в разработке и digital-сфере</p>
+        </article>
+        <article class="stat-card pastel-pink">
+          <span class="stat-number">4</span>
+          <p>основных научных направления, по которым уже есть работы</p>
+        </article>
+      </section>
+
+      <section class="info-card wide qualities">
+        <h3>Личные качества</h3>
+        <div class="qualities-grid">
+          <span>Коммуникабельность</span>
+          <span>Ответственность</span>
+          <span>Стрессоустойчивость</span>
+          <span>Креативность</span>
+          <span>Внимательность к деталям</span>
+          <span>Умение работать в команде</span>
+        </div>
+      </section>
+
+      <section class="info-card wide contacts-card" id="contacts">
+        <h3>Контакты</h3>
+        <div class="contacts-grid">
+          <a href="mailto:qipment@gmail.com">qipment@gmail.com</a>
+          <a href="tel:+375333176112">+375 (33) 317-61-12</a>
+          <span>Минск, Беларусь</span>
+          <a href="https://github.com/olinkiss47-crypto">GitHub</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
